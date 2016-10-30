@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- zero dp value. -->
+    <dimen name="_zero_value">0dp</dimen>
+    <!-- edit text view height. -->
+    <dimen name="edit_text_height">48dp</dimen>
+    <!-- button height. -->
+    <dimen name="button_height">48dp</dimen>
+    <!--list item text size. -->
+    <dimen name="text_size">16sp</dimen>
+    <!-- image view width. -->
+    <dimen name="image_view_width">54dp</dimen>
+    <!-- list item title text size. -->
+    <dimen name="title_text_size">12sp</dimen>
+
+
+</resources>

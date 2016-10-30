@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">"Ebooks Free "</string>
+    <string name="edit_text_hint">Use any keyword e.g Oliver</string>
+    <string name="button_text">Search</string>
+    <string name="book_title">Book Title</string>
+    <string name="author">Author</string>
+    <string name="language">Language: En</string>
+    <string name="count">Page Count: 150</string>
+    <string name="no_pages">No of pages: </string>
+
+    <string name="unknown">Unknown</string>
+    <string name="language_code">Language: </string>
+    <string name="not_found">Not found</string>
+    <string name="error">"Error"</string>
+    <string name="progress_message">Loading..</string>
+    <string name="error_url">Error with creating URL</string>
+    <string name="get">GET</string>
+    <string name="code">code : </string>
+    <string name="problem_json">problem receiving json results </string>
+    <string name="utf8">UTF-8</string>
+    <string name="items">items</string>
+    <string name="volume_info">volumeInfo</string>
+    <string name="title">title</string>
+    <string name="authors">authors</string>
+    <string name="page_count">pageCount</string>
+    <string name="preview_link">previewLink</string>
+    <string name="query_language">language</string>
+    <string name="en">en</string>
+    <string name="english">English</string>
+    <string name="image_link">imageLinks</string>
+    <string name="small_thumbnail">smallThumbnail</string>
+    <string name="access_info">accessInfo</string>
+    <string name="pdf">pdf</string>
+    <string name="download_link">downloadLink</string>
+    <string name="web_reader">webReaderLink</string>
+    <string name="problem_parsing">Problem parsing the Books JSON results</string>
+    <string name="arg_start">Oliver</string>
+    <string name="tag_book">TagBookSearch</string>
+    <string name="twenty">%20</string>
+    <string name="exception">exception</string>
+    <string name="message_one">Preview is not available for this book</string>
+    <string name="message_two">Downloadable version is not available for this book</string>
+    <string name="base_url">https://www.googleapis.com/books/v1/volumes?</string>
+    <string name="equal">=</string>
+    <string name="query_para">q</string>
+    <string name="separate"><![CDATA[&]]></string>
+    <string name="max_result">maxResults</string>
+    <string name="alert_title">No Internet Connection</string>
+    <string name="positive_btn">Enable</string>
+    <string name="negative_btn">Leave</string>
+    <string name="message_three">Web reader version is not available</string>
+    <string name="mesage_four">Completed loading 20 books for keyword</string>
+    <string name="message_five">No books found. Please try another keyword</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_zero_value"
+            android:layout_weight="1"
+            android:background="@color/colorGray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin">
+
+            <EditText
+                android:id="@+id/book_type_edit_text"
+                android:layout_width="@dimen/_zero_value"
+                android:layout_height="@dimen/edit_text_height"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:hint="@string/edit_text_hint"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="@dimen/_zero_value"
+                android:layout_height="@dimen/button_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/button_text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_zero_value"
+            android:layout_weight="5"
+            android:divider="@null"
+            android:dividerHeight="@dimen/_zero_value"
+            android:drawSelectorOnTop="true"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
